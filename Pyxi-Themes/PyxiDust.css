@@ -1,9 +1,9 @@
 /*
- * @name PyxiDust-PC
+ * @name PyxiDust
  * @version v1.2
  * @author OhMallow
  * @authorID 254623459190112257
- * @description Tinted Discord with Dusty Red Accents. [Port of my Mobile Discord Theme, PyxiDust, but with some extra modifications for the PC version]
+ * @description Tinted Discord with Dusty Red Accents. [Port of my Mobile Discord Theme (PyxiDust) but with some extra modifications for the PC version]
 */
 .theme-dark {
     --background-primary: #30272f;
@@ -20,6 +20,8 @@
 
     --background-mentioned: #ff666614;
     --background-mentioned-hover: #ffa4a414;
+    --background-modifier-selected: #423a43;
+    --background-modifier-hover:#423a4350;
     --mention-background: #663340;
 
     --text-normal: #edc2c8;
