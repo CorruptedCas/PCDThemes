@@ -1,11 +1,10 @@
 /*
  * @name PyxiDust-PC
- * @version v1.1
+ * @version v1.2
  * @author OhMallow
  * @authorID 254623459190112257
- * @description Tinted Discord with Dusty Red Accents. [Port of my Mobile Discord Theme, PyxiDust, but with some extra modifications that I like for the PC version.]
+ * @description Tinted Discord with Dusty Red Accents. [Port of my Mobile Discord Theme, PyxiDust, but with some extra modifications for the PC version]
 */
-:root,
 .theme-dark {
     --background-primary: #30272f;
     --background-secondary: #30272f;
@@ -15,6 +14,9 @@
     --background-floating: #30272f;
     --modal-background: #3b323b;
     --channeltextarea-background: #423a43;
+    --input-background: #3b323b;
+    --button-secondary-background: #423a43;
+    --scrollbar-thin-track: #362d35;
 
     --background-mentioned: #ff666614;
     --background-mentioned-hover: #ffa4a414;
@@ -27,6 +29,25 @@
 
     --blue-345: #784646;
     --blue-430: #784646;
+    --brand-05a: #733847;
+    --brand-10a: #733847;
+    --brand-15a: #73384730;
+    --brand-20a: #733847;
+    --brand-25a: #733847;
+    --brand-30a: #733847;
+    --brand-35a: #733847;
+    --brand-40a: #733847;
+    --brand-45a: #733847;
+    --brand-50a: #733847;
+    --brand-55a: #733847;
+    --brand-60a: #733847;
+    --brand-65a: #733847;
+    --brand-70a: #733847;
+    --brand-75a: #733847;
+    --brand-80a: #733847;
+    --brand-85a: #733847;
+    --brand-90a: #733847;
+    --brand-95a: #733847;
     --brand-100: #733847;
     --brand-130: #733847;
     --brand-160: #733847;
@@ -53,10 +74,13 @@
     --brand-830: #733847;
     --brand-860: #733847;
     --brand-900: #733847;
-    --primary-400: #bd8187;
-    --primary-360: #bd8187;
     --primary-130: #edc2c8;
     --primary-330: #edc2c8;
+    --primary-360: #bd8187;
+    --primary-400: #bd8187;
+    --primary-630: #362d35;
+    --primary-645: #30272f;
+    --primary-730: #bd8187;
     --white-500: #edc2c8;
 }
 
@@ -80,3 +104,4 @@ circle.dotBorderBase_a26d7b {
 .background_a26d7b {
     fill: transparent !important;
 }
+/* Extra Stuff */
