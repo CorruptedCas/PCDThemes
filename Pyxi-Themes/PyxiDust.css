@@ -1,113 +1,136 @@
 /*
  * @name PyxiDust
- * @version v1.2
+ * @version v1.3
  * @author OhMallow
  * @authorID 254623459190112257
  * @description Tinted Discord with Dusty Red Accents. [Port of my Mobile Discord Theme (PyxiDust) but with some extra modifications for the PC version]
 */
 .theme-dark {
-    --background-primary: #30272f;
-    --background-secondary: #30272f;
-    --background-secondary-alt: #362d35;
-    --background-tertiary: #261d23;
-    --background-accent: #423a43;
-    --background-floating: #30272f;
-    --modal-background: #3b323b;
-    --channeltextarea-background: #423a43;
-    --input-background: #3b323b;
-    --button-secondary-background: #423a43;
-    --scrollbar-thin-track: #362d35;
+  --background-primary: #30272f;
+  --background-secondary: #30272f;
+  --background-secondary-alt: #362d35;
+  --background-tertiary: #261d23;
+  --background-accent: #423a43;
+  --background-floating: #30272f;
+  --modal-background: #3b323b;
+  --channeltextarea-background: #423a43;
+  --input-background: #3b323b;
+  --button-secondary-background: #423a43;
+  --scrollbar-thin-track: #362d35;
 
-    --background-mentioned: #ff666614;
-    --background-mentioned-hover: #ffa4a414;
-    --background-modifier-selected: #423a43;
-    --background-modifier-hover: #423a4350;
-    --mention-background: #663340;
+  --background-mentioned: #ff666614;
+  --background-mentioned-hover: #ffa4a414;
+  --background-modifier-selected: #423a43;
+  --background-modifier-hover: #423a4350;
+  --mention-background: #663340;
 
-    --info-warning-foreground: #a85d32;
+  --info-warning-foreground: #a85d32;
 
-    --text-normal: #edc2c8;
-    --text-muted: #c4a0a4;
-    --text-link: #784646;
-    --text-brand: #733847;
+  --text-normal: #edc2c8;
+  --text-muted: #c4a0a4;
+  --text-link: #784646;
+  --text-brand: #733847;
 
-    --blue-345: #784646;
-    --blue-430: #784646;
-    --brand-05a: #73384730;
-    --brand-10a: #73384755;
-    --brand-15a: #73384730;
-    --brand-20a: #733847;
-    --brand-25a: #733847;
-    --brand-30a: #733847;
-    --brand-35a: #733847;
-    --brand-40a: #733847;
-    --brand-45a: #733847;
-    --brand-50a: #733847;
-    --brand-55a: #733847;
-    --brand-60a: #733847;
-    --brand-65a: #733847;
-    --brand-70a: #733847;
-    --brand-75a: #733847;
-    --brand-80a: #733847;
-    --brand-85a: #733847;
-    --brand-90a: #733847;
-    --brand-95a: #733847;
-    --brand-100: #733847;
-    --brand-130: #733847;
-    --brand-160: #733847;
-    --brand-200: #733847;
-    --brand-230: #733847;
-    --brand-260: #cc999d;
-    --brand-300: #733847;
-    --brand-330: #733847;
-    --brand-345: #733847;
-    --brand-360: #733847;
-    --brand-400: #733847;
-    --brand-430: #733847;
-    --brand-460: #733847;
-    --brand-500: #733847;
-    --brand-530: #733847;
-    --brand-560: #733847;
-    --brand-600: #733847;
-    --brand-630: #733847;
-    --brand-660: #733847;
-    --brand-700: #733847;
-    --brand-730: #733847;
-    --brand-760: #733847;
-    --brand-800: #733847;
-    --brand-830: #733847;
-    --brand-860: #733847;
-    --brand-900: #733847;
-    --primary-130: #edc2c8;
-    --primary-330: #edc2c8;
-    --primary-360: #bd8187;
-    --primary-400: #bd8187;
-    --primary-430: #bd8187;
-    --primary-630: #362d35;
-    --primary-645: #30272f;
-    --primary-730: #bd8187;
-    --white-500: #edc2c8;
-    --yellow-300: #ff6666;
+  --blue-345: #784646;
+  --blue-430: #784646;
+  --brand-05a: #73384730;
+  --brand-10a: #73384755;
+  --brand-15a: #73384730;
+  --brand-20a: #733847;
+  --brand-25a: #733847;
+  --brand-30a: #733847;
+  --brand-35a: #733847;
+  --brand-40a: #733847;
+  --brand-45a: #733847;
+  --brand-50a: #733847;
+  --brand-55a: #733847;
+  --brand-60a: #733847;
+  --brand-65a: #733847;
+  --brand-70a: #733847;
+  --brand-75a: #733847;
+  --brand-80a: #733847;
+  --brand-85a: #733847;
+  --brand-90a: #733847;
+  --brand-95a: #733847;
+  --brand-100: #733847;
+  --brand-130: #733847;
+  --brand-160: #733847;
+  --brand-200: #733847;
+  --brand-230: #733847;
+  --brand-260: #cc999d;
+  --brand-300: #733847;
+  --brand-330: #733847;
+  --brand-345: #733847;
+  --brand-360: #733847;
+  --brand-400: #733847;
+  --brand-430: #733847;
+  --brand-460: #733847;
+  --brand-500: #733847;
+  --brand-530: #733847;
+  --brand-560: #733847;
+  --brand-600: #733847;
+  --brand-630: #733847;
+  --brand-660: #733847;
+  --brand-700: #733847;
+  --brand-730: #733847;
+  --brand-760: #733847;
+  --brand-800: #733847;
+  --brand-830: #733847;
+  --brand-860: #733847;
+  --brand-900: #733847;
+  --primary-130: #edc2c8;
+  --primary-330: #edc2c8;
+  --primary-360: #bd8187;
+  --primary-400: #bd8187;
+  --primary-430: #bd8187;
+  --primary-630: #362d35;
+  --primary-645: #30272f;
+  --primary-730: #bd8187;
+  --white-500: #edc2c8;
 }
 
-/* Extra Stuff */
+/* Mention & Other Bar */
+.mentioned_d5deea:before,
+.ephemeral_d5deea:before,
+.nitroMessage_d5deea:before,
+.automodMessage_d5deea:before,
+.replying_d5deea:before,
+.highlighted_d5deea:before {
+  background: #ff6666;
+}
+
+/* Other Extra Stuff */
 .botTag_a31c43,
 .chipletContainerInner_d5cb59 {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 /* Role Dot */
-.content_e9f61e > div.nameAndDecorators_e9f61e > div.name_e9f61e > span > span > span > svg circle.dotBorderColor_a26d7b,
-.content_e9f61e > div.nameAndDecorators_e9f61e > div.name_e9f61e > span > span > span > svg circle.dotBorderBase_a26d7b {
-    fill: currentColor !important;
+.content_e9f61e
+  > div.nameAndDecorators_e9f61e
+  > div.name_e9f61e
+  > span
+  > span
+  > span
+  > svg
+  circle.dotBorderColor_a26d7b,
+.content_e9f61e
+  > div.nameAndDecorators_e9f61e
+  > div.name_e9f61e
+  > span
+  > span
+  > span
+  > svg
+  circle.dotBorderBase_a26d7b {
+  fill: currentColor !important;
 }
 circle.dotBorderColor_a26d7b {
-    opacity: 1;
+  opacity: 1;
 }
 circle.dotBorderBase_a26d7b {
-    fill: currentColor !important;
+  fill: currentColor !important;
 }
 .background_a26d7b {
-    fill: transparent !important;
+  fill: transparent !important;
 }
 /* Extra Stuff */
