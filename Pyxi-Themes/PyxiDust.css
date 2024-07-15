@@ -24,6 +24,8 @@
     --background-modifier-hover: #423a4350;
     --mention-background: #663340;
 
+    --info-warning-foreground: #a85d32;
+
     --text-normal: #edc2c8;
     --text-muted: #c4a0a4;
     --text-link: #784646;
@@ -85,6 +87,7 @@
     --primary-645: #30272f;
     --primary-730: #bd8187;
     --white-500: #edc2c8;
+    --yellow-300: #ff6666;
 }
 
 /* Extra Stuff */
