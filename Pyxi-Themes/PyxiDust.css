@@ -1,6 +1,6 @@
 /*
  * @name PyxiDust
- * @version v1.3
+ * @version v1.4
  * @author OhMallow
  * @authorID 254623459190112257
  * @description Tinted Discord with Dusty Red Accents. [Port of my Mobile Discord Theme (PyxiDust) but with some extra modifications for the PC version]
@@ -99,7 +99,7 @@
   background: #ff6666;
 }
 
-/* Other Extra Stuff */
+/* Extra Stuff */
 .botTag_a31c43,
 .chipletContainerInner_d5cb59 {
   background-color: transparent;
@@ -133,4 +133,24 @@ circle.dotBorderBase_a26d7b {
 .background_a26d7b {
   fill: transparent !important;
 }
-/* Extra Stuff */
+/* Other Extra Stuff */
+
+[id="vc-spotify-player"]{
+  --vc-spotify-green: #b6445e !important;
+  margin: 8px !important;
+}
+
+[d="M2 5a3 3 0 0 1 3-3h3.93a2 2 0 0 1 1.66.9L12 5h7a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5Z"]{
+  color:#733847;
+}
+
+.folderIconWrapper_bc7085{
+  background-color: transparent !important;
+}
+
+.divider_fc4f04{
+  border-width: 0.06cm;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #733847;
+}
