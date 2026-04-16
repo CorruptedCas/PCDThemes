@@ -1,0 +1,59 @@
+/*
+ * @name Re:PyxiDust
+ * @version v1.0
+ * @author OhMallow
+ * @authorID 254623459190112257
+ * @description Tinted Discord with Dusty Red Accents. Updated Version of my PyxiDust theme updated to work with Discord as of 16/04/26.
+*/
+
+.theme-darker {
+--background-base-low: #261d23 !important;
+--background-base-lower: #362d35 !important;
+--background-base-lowest: #30272f !important;
+--background-surface-high: #30272f !important;
+--background-surface-higher: #423a43 !important;
+--background-surface-highest: #423a43 !important;
+}
+
+.guilds__5e434,.title_c38106,.sidebar__5e434 { background: #261d23 !important;} 
+
+.inner__74017, .themedBackground__74017 {background: #423a43 !important;}
+/* 2.0 Optional Stuff */
+
+/* 2.1 Hide Bot Tags/Clan Tags */
+.botTag__5d473,
+.chipletContainerInline__10651 {
+  display: none !important;
+}
+
+/* 2.2 Remove Role Dot Background */
+.content__91a9d
+  > div.nameAndDecorators__91a9d
+  > div.name__91a9d
+  > span
+  > span
+  > span
+  > svg
+  circle.dotBorderColor__4f569,
+.content__91a9d
+  > div.nameAndDecorators__91a9d
+  > div.name__91a9d
+  > span
+  > span
+  > span
+  > svg
+  circle.dotBorderBase__4f569 {
+  fill: currentColor !important;
+}
+circle.dotBorderColor__4f569 {
+  opacity: 1;
+}
+circle.dotBorderBase__4f569 {
+  fill: currentColor !important;
+}
+.background__4f569 {
+  fill: transparent !important;
+}
+
+/* 2.3 Remove Section Divider (Mainly for usage on high contrast mode) */
+.sectionDivider__629e4 {display:none;}
