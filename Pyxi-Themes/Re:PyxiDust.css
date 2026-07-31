@@ -6,18 +6,42 @@
  * @description Tinted Discord with Dusty Red Accents. Updated Version of my PyxiDust theme updated to work with Discord as of 16/04/26.
 */
 
-.theme-darker {
---background-base-low: #261d23 !important;
---background-base-lower: #362d35 !important;
---background-base-lowest: #30272f !important;
---background-surface-high: #30272f !important;
---background-surface-higher: #423a43 !important;
---background-surface-highest: #423a43 !important;
+.theme-darker, .highcontrast-mode {
+  --background-base-low: #261d23 !important;
+  --background-base-lower: #362d35 !important;
+  --background-base-lowest: #30272f !important;
+  --background-surface-high: #30272f !important;
+  --background-surface-higher: #423a43 !important;
+  --background-surface-highest: #423a43 !important;
+  --message-mentioned-background-default: #ff666614 !important;
+  --message-mentioned-background-hover: #ff666624 !important;
+  --yellow-new-33: #ff6666 !important;
+  --border-normal: #000000aa !important;
+  --border-strong: #000000aa !important;
+  --border-muted: #000000aa !important;
+  --border-focus: #000000aa !important;
+  --app-frame-border: #dadada !important;
 }
 
-.guilds__5e434,.title_c38106,.sidebar__5e434 { background: #261d23 !important;} 
+.guilds__5e434,
+.title_c38106,
+.sidebar__5e434 {
+  background: #261d23 !important;
+}
 
-.inner__74017, .themedBackground__74017 {background: #423a43 !important;}
+.inner__74017,
+.themedBackground__74017 {
+  background: #423a43 !important;
+}
+
+/* Unfinished border thing for high contrast mode*/
+.page__5e434, .sidebar__5e434, .chat_f75fb0, .subtitleContainer_f75fb0{
+--border-subtle: currentColor !important;
+}
+.title_f75fb0{
+  --border-subtle: #0000000 !important
+}
+
 /* 2.0 Optional Stuff */
 
 /* 2.1 Hide Bot Tags/Clan Tags */
@@ -56,4 +80,26 @@ circle.dotBorderBase__4f569 {
 }
 
 /* 2.3 Remove Section Divider (Mainly for usage on high contrast mode) */
-.sectionDivider__629e4 {display:none;}
+.sectionDivider__629e4 {
+  display: none;
+}
+
+/* 2.4 Remove New Member Actions*/
+.container__183e8.newMemberActionBar__74017 {
+  display: none !important;
+}
+
+/* 2.5 Message Logger*/
+[class="messagelogger-deleted messageListItem__5126c"] {
+  --status-danger: #ffa6a6 !important;
+}
+
+[class="children__29444"] {visibility:hidden}
+
+/* 3.0 Disabled Stuff */
+/* #guild-list-unread-dms > div {display: none;} */
+/*--background-mod-subtle: #ff6666 !important;*/
+/*.chatContent_f75fb0 {
+  background-image: url(https://cdn.donmai.us/original/b5/35/__hatsune_miku_yuki_miku_magical_mirai_miku_and_racing_miku_vocaloid_and_4_more_drawn_by_kanvien__b53542424c6c78c415c2c7b1c803e365.jpg) !important;
+background-blend-mode: darken;
+} */
